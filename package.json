@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "tsc"
+    "prepare": "tsc"
   },
   "author": "Sidoine De Wispelaere",
   "license": "MIT",
@@ -21,5 +21,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/wowts/masque.git"
+  },
+  "lua": {
+    "name": "Masque"
   }
 }
