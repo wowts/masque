@@ -1,28 +1,30 @@
 {
-  "name": "@wowts/masque",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "tsc"
-  },
-  "author": "Sidoine De Wispelaere",
-  "license": "MIT",
-  "dependencies": {
-    "@wowts/lua": "^1.0.6",
-    "@wowts/tslib": "^1.0.1",
-    "@wowts/tsaddon": "^1.1.2",
-    "@wowts/wow-mock": "^1.0.8"
-  },
-  "devDependencies": {
-    "typescript": "^2.5.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wowts/masque.git"
-  },
-  "lua": {
-    "name": "Masque"
-  }
+    "name": "@wowts/masque",
+    "version": "1.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "tsc"
+    },
+    "author": "Sidoine De Wispelaere",
+    "license": "MIT",
+    "dependencies": {
+        "@wowts/lua": "^1.0.6",
+        "@wowts/tslib": "^1.0.1",
+        "@wowts/tsaddon": "^1.1.2",
+        "@wowts/wow-mock": "^1.0.8"
+    },
+    "devDependencies": {
+        "typescript": "^4.1.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wowts/masque.git"
+    },
+    "lua": {
+        "name": "Masque",
+        "git": "https://github.com/SFX-WoW/Masque",
+        "entry": "Masque.lua"
+    }
 }
